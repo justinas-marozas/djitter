@@ -67,3 +67,13 @@ Project overview:
 - Step 10	[Submit Dweets Through a Django Form](https://realpython.com/django-social-forms-4/#step-10-submit-dweets-using-django-forms)
 - Step 11	[Prevent Double Submissions and Handle Errors](https://realpython.com/django-social-forms-4/#step-11-prevent-double-submissions-and-handle-errors)
 - Step 12	[Improve the Front-End User Experience](https://realpython.com/django-social-forms-4/#step-12-improve-the-front-end-user-experience)
+
+### Next Steps
+
+If you’ve already created a portfolio site, add your project there to [showcase your work](https://realpython.com/get-started-with-django-1/#showcase-your-projects). You can keep improving your Django social network to add functionality and make it even more impressive.
+
+Here are some ideas to take your project to the next level:
+
+- **Implement User Authentication:** Allow new users to sign up through the front end of your web app by following the steps outlined in [Get Started With Django Part 2: Django User Management](https://realpython.com/django-user-management/).
+- **Deploy Your Djitter Project:** Put your web app online for the whole world to see by [hosting your Django project on Heroku](https://realpython.com/django-hosting-on-heroku/).
+- **Get Social:** Invite your friends to join your Django social network, and start djeeting your thoughts to one another.
