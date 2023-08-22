@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "djitter"
+version = "0.1.0"
+description = ""
+authors = ["Justin Marozas <justinas.marozas@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.2.4"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.5.1"
+pylance = "^0.6.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
