@@ -12,7 +12,15 @@ Django = "^4.2.4"
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.5.1"
 pylance = "^0.6.2"
+django-stubs = "^4.2.3"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+plugins =
+    mypy_django_plugin.main
+
+[[tool.mypy.plugins.django-stubs]]
+django_settings_module = "social.settings"
