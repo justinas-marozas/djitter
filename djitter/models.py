@@ -21,7 +21,7 @@ def create_profile(sender: User, instance: User, created: bool, **_):
         return
     user_profile = Profile(user=instance)
     user_profile.save()
-    user_profile.follows.set([user_profile.id])  # type: ignore
+    user_profile.follows.add(user_profile)
     user_profile.save()
 
 post_save.connect(create_profile, sender=User)
