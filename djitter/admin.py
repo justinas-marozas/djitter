@@ -4,11 +4,11 @@ from django.contrib.auth.models import User, Group
 from djitter.models import Profile
 
 
-class ProfileInline(admin.StackedInline):  # type: ignore
+class ProfileInline(admin.StackedInline):
     model = Profile
 
 
-class UserAdmin(admin.ModelAdmin):  # type: ignore
+class UserAdmin(admin.ModelAdmin):
     models = User
     fields = ['username']
     inlines = [ProfileInline]
